@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    background: #f0f0f0;
+    overflow-y: auto;
+}
+
+.left {
+    border-right: 1px solid #ccc;
+}
+
+.right {
+    border-left: 1px solid #ccc;
+}
+
+.canvas {
+    flex: 1;
+    padding: 20px;
+    border: 1px dashed #ccc;
+    background: #fff;
+    overflow-y: auto;
+}
+
+.components .component {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background: #e0e0e0;
+    cursor: move;
+}
+
+h3 {
+    margin: 0 0 10px;
+}

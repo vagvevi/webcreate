@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Builder</title>
+    <link rel="stylesheet" href="cars.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="sidebar left">
+            <h3>Components</h3>
+            <div class="components">
+                <div class="component" draggable="true" data-type="text">Text Block</div>
+                <div class="component" draggable="true" data-type="image">Image Block</div>
+                <div class="component" draggable="true" data-type="button">Button</div>
+            </div>
+        </div>
+
+        <!-- Canvas Area -->
+        <div class="canvas" id="canvas">
+            <h3>Drag components here</h3>
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="sidebar right">
+            <div class="tab design-tab">
+                <h3>Design</h3>
+                <div id="design-properties"></div>
+            </div>
+            <div class="tab data-tab">
+                <h3>Data Binding</h3>
+                <div id="data-binding"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
